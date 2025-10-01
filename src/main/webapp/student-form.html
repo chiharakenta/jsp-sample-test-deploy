@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    <form action="student-response.jsp" method="get">
+        姓: <input type="text" name="lastName"><br>
+        名: <input type="text" name="firstName"><br>
+        国籍: <select name="country">
+            <option value="日本">日本</option>
+            <option value="アメリカ">アメリカ</option>
+            <option value="中国">中国</option>
+            <option value="韓国">韓国</option>
+            <option value="フランス">フランス</option>
+            <option value="ドイツ">ドイツ</option>
+            <option value="インド">インド</option>
+            <option value="ブラジル">ブラジル</option>
+            <option value="南アフリカ">南アフリカ</option>
+            <option value="オーストラリア">オーストラリア</option>
+        </select><br /><br />
+        好きな言語: <br />
+        <input type="checkbox" name="favoriteLanguage" value="Java">Java<br />
+        <input type="checkbox" name="favoriteLanguage" value="Python">Python<br />
+        <input type="checkbox" name="favoriteLanguage" value="Kotlin">Kotlin<br />
+        <input type="checkbox" name="favoriteLanguage" value="JavaScript">JavaScript<br />
+        <input type="submit" value="送信">
+    </form>
+</body>
+</html>
